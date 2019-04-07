@@ -1,5 +1,3 @@
-print ("Hello, what is you name?")
+user_name = input("What is your name?\n")
 
-x = input()
-
-print("Greeting, " + str(x) + ", from a Python program")
+print("Greeting, " + str(user_name) + ", from a Python program")
